@@ -1,0 +1,6 @@
+include ':PosApiSdk'
+include ':zxing-core-3.3.0'
+include ':CS10-C-SDK-RemoveZxing'
+include ':CS10-C-v1.1.2'
+include ':app'
+rootProject.name = "My Application"

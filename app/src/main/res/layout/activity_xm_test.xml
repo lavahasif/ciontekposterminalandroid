@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/bt_openIcCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openIcCard"
+        android:text="openIcCard" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="seek"
+        android:text="seek"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="activate"
+        android:text="activate" />
+
+
+    <EditText
+        android:id="@+id/ed_ResponseData"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="move"
+        android:text="move" />
+
+    <Button
+        android:id="@+id/bt_close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="close"
+        android:text="close" />
+</LinearLayout>
